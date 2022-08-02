@@ -1,0 +1,12 @@
+[submodule "aliengo-slave-catkin-ws"]
+	path = aliengo-slave-catkin-ws
+	url = git@github.com:Harrisonust/aliengo-slave-catkin-ws.git
+[submodule "aliengo-master-catkin-ws"]
+	path = aliengo-master-catkin-ws
+	url = git@github.com:Harrisonust/aliengo-master-catkin-ws.git
+[submodule "aliengo-slam-ws"]
+	path = aliengo-slam-ws
+	url = git@github.com:Harrisonust/aliengo-slam-ws.git
+[submodule "aliengo-legged-ws"]
+	path = aliengo-legged-ws
+	url = git@github.com:Harrisonust/aliengo-legged-ws.git
