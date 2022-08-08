@@ -1,19 +1,19 @@
 # Aliengo workspaces
 
 ## Sub-workspaces
-* aliengo-slam-ws
+### aliengo-slam-ws
 The native aliengo script, not used anywhere in the system.
 
-* aliengo-legged-ws
+### aliengo-legged-ws
 The native aliengo low-level motion control library, also used by the aliengo controller. And an add-on high-level motion control library that is interfaced with slam package.
 
-* aliengo-slave-catkin-ws(ROS)
+### aliengo-slave-catkin-ws(ROS)
 The main workspace for slam activities. There is also a multi-machine communication package(aliengo-master-catkin-ws/src/multi_machine) that can send customized messages to the master.
 
-* aliengo-master-catkin-ws(ROS)
+### aliengo-master-catkin-ws(ROS)
 This workspace contains launch files on the master machine side. There is also a multi-machine communication package(aliengo-master-catkin-ws/src/multi_machine) that can receive customized messages from the slave.
 
-## Workflow
+## Workflow Overview
 1. Launch the slam package in aliengo-slave-catkin-ws
     ```sh
     roslaunch slamware_ros_sdk_server_node.launch 
