@@ -26,7 +26,7 @@ This workspace contains launch files on the master machine side. There is also a
     ```sh
     sudo ./aliengo-legged-ws/build/optimal_nav
     ```
-    The code runs in a forever loop and will keep listening the planned position and producing optimal motions.
+    The code runs in a forever loop and will keep listening to the planned position and producing optimal motions.
 
 ## What have been done
 
